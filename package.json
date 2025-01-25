@@ -1,12 +1,23 @@
 {
   "name": "hexlet-git",
-  "type": "module",
   "version": "1.0.0",
-  "description": "test",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pavel8950/hexlet-js.git"
+  },
+  "author": "Pavel8950",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavel8950/hexlet-js/issues"
+  },
+  "homepage": "https://github.com/Pavel8950/hexlet-js#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
